@@ -22,7 +22,7 @@ def fr_7_1(x,i):
     return ((x)**(2*i))/math.factorial(2*i)
 def fr_7_2(x):
     return (math.e**x + math.e**(-x))/2
-sm(fr_7_1, fr_7_2, 0.1, 1, 0.005)
+sm(fr_7_1, fr_7_2, 0.1, 1, 0.05)
 
 #level 3 №8
 
@@ -31,7 +31,7 @@ def fr_8_1(x,i):
 def fr_8_2(x):
     return (math.e**(2*x))
 print("№8")
-sm(fr_8_1, fr_8_2, 0.1, 1, 0.005)
+sm(fr_8_1, fr_8_2, 0.1, 1, 0.05)
 
 
 
@@ -41,4 +41,4 @@ def fr_9_1(x,i):
 def fr_9_2(x):
     return (math.atan(x))
 print("№9")
-sm(fr_9_1, fr_9_2, 0.1, 0.5, 0.005)
+sm(fr_9_1, fr_9_2, 0.1, 0.5, 0.05)
